@@ -11,7 +11,7 @@ import java.util.Map;
 
 @Component
 public class JwtUtil {
-    private String secretKey = "secret"; // Use a strong secret key in production
+    private String secretKey = "gHQy9AvXG7e5N8pLzQqWbYtX6mCjD4sFzUvRwM5V2Y0="; // Use a strong secret key in production
     private long validityInMilliseconds = 3600000; // 1h
 
     public String generateToken(String username) {
